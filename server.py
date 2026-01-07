@@ -4,9 +4,9 @@ from telegram.constants import ChatAction
 import asyncio
 import google.generativeai as genai
 
-# 🔑 Replace with your API keys
-BOT_TOKEN = "7948889464:AAGrvnphQvrPyofcHKf3r1J37Ub2czzBjYQ"
-GEMINI_API_KEY = "AIzaSyAY6bI2gN3fX2mPwFuNUpMFbMfpo7V2Se0"
+
+BOT_TOKEN = ""
+GEMINI_API_KEY = ""
 
 # Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
